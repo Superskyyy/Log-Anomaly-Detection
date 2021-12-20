@@ -1,6 +1,6 @@
 from .PCA import PCA
 from .InvariantsMiner import InvariantsMiner
-from .DeepLog import DeepLog
+from .translog import TransLog
 # from .LogClustering import LogClustering
 # from .LR import LR
 # from .SVM import SVM

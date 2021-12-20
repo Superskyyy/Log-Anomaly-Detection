@@ -22,7 +22,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import TensorDataset, DataLoader
 
-from naie.log import logger
+#from naie.log import logger
 
 
 def _split_data(x_data, y_data=None, train_ratio=0, split_type='uniform'):
@@ -273,4 +273,4 @@ def deeplog_result_to_csv(y, t, result_dir, time_zone=8):
         df = data_df[data_df['dataset']==name]
         submit_df = submit_df.append(df, ignore_index=True)
     submit_df.to_csv(result_dir + 'submit.csv', index=False, encoding='utf-8')
-    logger.info('Result was saved to submit.csv')
+    #logger.info('Result was saved to submit.csv')

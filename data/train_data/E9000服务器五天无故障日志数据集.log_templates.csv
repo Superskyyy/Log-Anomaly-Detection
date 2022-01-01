@@ -1,4 +1,0 @@
-EventId,EventTemplate,Occurrences
-9b6e2388,"Snmpuser,<*>(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n",119
-3507a982,"Snmpuser,<*>(SNMP),SMM,set snmp trap version(v3) succeed\n",119
-de7bc200,"Snmpuser,<*>(SNMP),SMM,Set trap user(Snmpuser) succeed \n",119

@@ -1,0 +1,432 @@
+2020-04-09T08:14:58.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T08:14:58.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T08:14:59.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T09:15:18.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T09:15:19.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T09:15:19.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T10:15:38.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T10:15:39.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T10:15:40.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T11:15:59.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T11:16:00.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T11:16:00.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T12:16:20.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T12:16:20.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T12:16:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T12:57:19.000Z root,199.19.81.10(CLI),SMM,   (login through CLI)\n
+2020-04-09T12:57:31.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.81), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814306).\n
+2020-04-09T12:57:31.000Z blade9,FRU Hot Swap, Transition to M5.cause:Normal State Change.fruid:#0.Event Code:0XF005FFFF, Severity:Assertion, [Info]\n
+2020-04-09T12:57:31.000Z root,199.19.81.10(CLI),blade9,Set fru0's powerstate(Poweroff) succeed\n
+2020-04-09T12:57:31.000Z blade9,FRU Hot Swap, Transition to M6.cause:Normal State Change.fruid:#0.Event Code:0XF006FFFF, Severity:Assertion, [Info]\n
+2020-04-09T12:57:32.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814306).\n
+2020-04-09T12:58:38.000Z root,199.19.81.10(CLI),SMM,   (exit session because of timeout)\n
+2020-04-09T12:58:38.000Z root,199.19.81.10(CLI),SMM,   (logout through CLI)\n
+2020-04-09T12:59:49.000Z blade9,DIMM000, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814443).\n
+2020-04-09T12:59:49.000Z blade9,DIMM011, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:49.000Z blade9,DIMM001, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:49.000Z blade9,ACPI State, S4/S5 state.Event Code:0X2206FFFF, Severity:Assertion, [Info]\n
+2020-04-09T12:59:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.34.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814443).\n
+2020-04-09T12:59:49.000Z blade9,DIMM010, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:49.000Z blade9,FRU Hot Swap, Transition to M1.cause:Normal State Change.fruid:#0.Event Code:0XF001FFFF, Severity:Assertion, [Info]\n
+2020-04-09T12:59:50.000Z blade9,DIMM101, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z blade9,DIMM110, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z blade9,DIMM021, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z blade9,DIMM100, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z blade9,DIMM111, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z blade9,DIMM121, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z blade9,DIMM031, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814445).\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z blade9,DIMM020, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z blade9,DIMM030, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z blade9,DIMM120, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814444).\n
+2020-04-09T12:59:50.000Z blade9,DIMM131, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:50.000Z blade9,DIMM130, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-09T12:59:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814445).\n
+2020-04-09T12:59:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814445).\n
+2020-04-09T12:59:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814445).\n
+2020-04-09T12:59:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814445).\n
+2020-04-09T12:59:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814445).\n
+2020-04-09T12:59:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814445).\n
+2020-04-09T13:00:33.000Z root,199.19.81.10(CLI),SMM,   (login through CLI)\n
+2020-04-09T13:00:48.000Z blade9,FRU Hot Swap, Transition to M2.cause:Normal State Change.fruid:#0.Event Code:0XF002FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:48.000Z root,199.19.81.10(CLI),blade9,Set fru0's powerstate(Poweron) succeed\n
+2020-04-09T13:00:48.000Z blade9,FRU Hot Swap, Transition to M3.cause:Normal State Change.fruid:#0.Event Code:0XF003FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.33), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814503).\n
+2020-04-09T13:00:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.49), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814503).\n
+2020-04-09T13:00:50.000Z blade9,ACPI State, S0 state.Event Code:0X2200FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.65), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814504).\n
+2020-04-09T13:00:50.000Z blade9,SysRestart, System restart.due to chassis control command.Event Code:0X1D07FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.34.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814504).\n
+2020-04-09T13:00:50.000Z blade9,FRU Hot Swap, Transition to M4.cause:Normal State Change.fruid:#0.Event Code:0XF004FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.29.369), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814504).\n
+2020-04-09T13:00:51.000Z blade9,DIMM000, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z blade9,DIMM010, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM011, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM021, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM031, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z blade9,DIMM001, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z blade9,DIMM020, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM030, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM120, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z blade9,DIMM100, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM111, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814507).\n
+2020-04-09T13:00:52.000Z blade9,DIMM101, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM110, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z blade9,DIMM121, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814506).\n
+2020-04-09T13:00:53.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814507).\n
+2020-04-09T13:00:53.000Z blade9,DIMM131, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:53.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814507).\n
+2020-04-09T13:00:53.000Z blade9,DIMM130, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:00:53.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814507).\n
+2020-04-09T13:00:53.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814507).\n
+2020-04-09T13:00:53.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814507).\n
+2020-04-09T13:00:53.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814507).\n
+2020-04-09T13:01:18.000Z blade9,CPU1 Status, CPU present.Event Code:0X0707FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.7.113), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814533).\n
+2020-04-09T13:01:19.000Z blade9,DIMM001, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814533).\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814533).\n
+2020-04-09T13:01:19.000Z blade9,CPU2 Status, CPU present.Event Code:0X0707FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z blade9,DIMM021, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z blade9,DIMM020, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z blade9,DIMM031, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z blade9,DIMM011, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z blade9,DIMM010, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814533).\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814533).\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814533).\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:19.000Z blade9,DIMM000, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:19.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.7.113), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814533).\n
+2020-04-09T13:01:19.000Z blade9,DIMM030, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z blade9,DIMM121, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:20.000Z blade9,DIMM111, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z blade9,DIMM131, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:20.000Z blade9,DIMM101, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z blade9,DIMM110, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:20.000Z blade9,DIMM130, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z blade9,DIMM100, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:20.000Z blade9,ACPI State, S0 state.Event Code:0X2200FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z blade9,DIMM120, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814535).\n
+2020-04-09T13:01:20.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814534).\n
+2020-04-09T13:01:21.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.29.369), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814535).\n
+2020-04-09T13:01:21.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2071.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814536).\n
+2020-04-09T13:01:21.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814535).\n
+2020-04-09T13:01:21.000Z blade9,Mezz Card1, Device inserted.Event Code:0X0841FF17, Severity:Assertion, [Info]\n
+2020-04-09T13:01:21.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.34.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814535).\n
+2020-04-09T13:01:21.000Z blade9,Mezz Card2, Device inserted.Event Code:0X0841FF17, Severity:Assertion, [Info]\n
+2020-04-09T13:01:21.000Z blade9,SysRestart, System restart.due to chassis control command.Event Code:0X1D07FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:22.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2071.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814536).\n
+2020-04-09T13:01:22.000Z blade9,RAID Presence, Device inserted.Event Code:0X0841FF17, Severity:Assertion, [Info]\n
+2020-04-09T13:01:22.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2071.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814536).\n
+2020-04-09T13:01:23.000Z blade9,NTP Sync Failed, State asserted.Event Code:0X0341FF16, Severity:Assertion, [Info]\n
+2020-04-09T13:01:23.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2326.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814537).\n
+2020-04-09T13:01:23.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.790.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814537).\n
+2020-04-09T13:01:23.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.13.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814537).\n
+2020-04-09T13:01:23.000Z blade9,DISK0, Hard disk presence.Event Code:0X0D00FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:23.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.13.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7814537).\n
+2020-04-09T13:01:23.000Z blade9,DISK1, Hard disk presence.Event Code:0X0D00FFFF, Severity:Assertion, [Info]\n
+2020-04-09T13:01:23.000Z blade9,BMC Boot Up, Device enabled.Event Code:0X0941FF16, Severity:Assertion, [Info]\n
+2020-04-09T13:01:54.000Z root,199.19.81.10(CLI),SMM,   (exit session because of timeout)\n
+2020-04-09T13:01:54.000Z root,199.19.81.10(CLI),SMM,   (logout through CLI)\n
+2020-04-09T13:16:40.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T13:16:41.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T13:16:41.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T14:17:01.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T14:17:01.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T14:17:01.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T15:17:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T15:17:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T15:17:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T16:17:41.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T16:17:42.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T16:17:42.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T17:18:01.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T17:18:02.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T17:18:02.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T18:18:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T18:18:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T18:18:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T19:18:41.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T19:18:42.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T19:18:42.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T20:19:01.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T20:19:02.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T20:19:02.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T21:19:21.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T21:19:22.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T21:19:22.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T22:19:41.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T22:19:42.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-09T22:19:43.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T23:20:02.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-09T23:20:03.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-09T23:20:03.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T00:20:22.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T00:20:22.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T00:20:23.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T00:49:45.000Z root,199.19.81.10(CLI),SMM,   (login through CLI)\n
+2020-04-10T00:49:56.000Z root,199.19.81.10(CLI),blade9,Set fru0's powerstate(Poweroff) succeed\n
+2020-04-10T00:49:56.000Z blade9,FRU Hot Swap, Transition to M5.cause:Normal State Change.fruid:#0.Event Code:0XF005FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:49:56.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.81), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857050).\n
+2020-04-10T00:49:56.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857051).\n
+2020-04-10T00:49:56.000Z blade9,FRU Hot Swap, Transition to M6.cause:Normal State Change.fruid:#0.Event Code:0XF006FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:50:57.000Z root,199.19.81.10(CLI),SMM,   (exit session because of timeout)\n
+2020-04-10T00:50:57.000Z root,199.19.81.10(CLI),SMM,   (logout through CLI)\n
+2020-04-10T00:52:07.000Z blade9,ACPI State, S4/S5 state.Event Code:0X2206FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM020, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM001, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.34.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857182).\n
+2020-04-10T00:52:08.000Z blade9,DIMM021, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM031, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM120, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM011, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM000, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM110, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM101, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM121, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,FRU Hot Swap, Transition to M1.cause:Normal State Change.fruid:#0.Event Code:0XF001FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM100, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857182).\n
+2020-04-10T00:52:08.000Z blade9,DIMM111, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857182).\n
+2020-04-10T00:52:08.000Z blade9,DIMM010, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z blade9,DIMM030, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:08.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z blade9,DIMM131, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z blade9,DIMM130, Presence detected.Event Code:0X0C86FFFF, Severity:Deassertion, [Info]\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:09.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857183).\n
+2020-04-10T00:52:10.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857184).\n
+2020-04-10T00:52:10.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857184).\n
+2020-04-10T00:52:10.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857184).\n
+2020-04-10T00:52:10.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857184).\n
+2020-04-10T00:52:10.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.98), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857184).\n
+2020-04-10T00:54:17.000Z root,199.19.81.10(CLI),SMM,   (login through CLI)\n
+2020-04-10T00:54:20.000Z root,199.19.81.10(CLI),blade9,Set fru0's powerstate(Poweron) succeed\n
+2020-04-10T00:54:20.000Z blade9,FRU Hot Swap, Transition to M2.cause:Normal State Change.fruid:#0.Event Code:0XF002FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:20.000Z blade9,FRU Hot Swap, Transition to M3.cause:Normal State Change.fruid:#0.Event Code:0XF003FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:21.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.33), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857315).\n
+2020-04-10T00:54:21.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.49), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857315).\n
+2020-04-10T00:54:22.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.34.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857316).\n
+2020-04-10T00:54:22.000Z blade9,FRU Hot Swap, Transition to M4.cause:Normal State Change.fruid:#0.Event Code:0XF004FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:22.000Z blade9,SysRestart, System restart.due to chassis control command.Event Code:0X1D07FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:22.000Z blade9,ACPI State, S0 state.Event Code:0X2200FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:22.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.29.369), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857316).\n
+2020-04-10T00:54:22.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.240.65), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857316).\n
+2020-04-10T00:54:23.000Z blade9,DIMM001, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:23.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857317).\n
+2020-04-10T00:54:23.000Z blade9,DIMM021, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:23.000Z blade9,DIMM010, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:23.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:23.000Z blade9,DIMM011, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:23.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857317).\n
+2020-04-10T00:54:23.000Z blade9,DIMM000, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:23.000Z blade9,DIMM020, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:24.000Z blade9,DIMM120, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857319).\n
+2020-04-10T00:54:24.000Z blade9,DIMM130, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:24.000Z blade9,DIMM111, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:24.000Z blade9,DIMM031, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z blade9,DIMM100, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z blade9,DIMM101, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z blade9,DIMM110, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z blade9,DIMM030, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z blade9,DIMM121, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z blade9,DIMM131, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:24.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857318).\n
+2020-04-10T00:54:25.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857319).\n
+2020-04-10T00:54:25.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857319).\n
+2020-04-10T00:54:25.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857319).\n
+2020-04-10T00:54:25.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857319).\n
+2020-04-10T00:54:25.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857319).\n
+2020-04-10T00:54:47.000Z blade9,CPU1 Status, CPU present.Event Code:0X0707FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z blade9,CPU2 Status, CPU present.Event Code:0X0707FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.7.113), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857342).\n
+2020-04-10T00:54:48.000Z blade9,DIMM030, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z blade9,DIMM011, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.7.113), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857342).\n
+2020-04-10T00:54:48.000Z blade9,DIMM001, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z blade9,DIMM010, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z blade9,DIMM000, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:48.000Z blade9,DIMM021, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z blade9,DIMM020, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857342).\n
+2020-04-10T00:54:48.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857342).\n
+2020-04-10T00:54:48.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857342).\n
+2020-04-10T00:54:48.000Z blade9,DIMM031, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:48.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857342).\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:49.000Z blade9,DIMM130, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z blade9,DIMM121, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z blade9,DIMM101, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857344).\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:49.000Z blade9,DIMM110, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z blade9,DIMM111, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z blade9,DIMM100, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:49.000Z blade9,ACPI State, S0 state.Event Code:0X2200FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z blade9,DIMM131, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z blade9,DIMM120, Presence detected.Event Code:0X0C06FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:49.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857343).\n
+2020-04-10T00:54:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.29.369), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857344).\n
+2020-04-10T00:54:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857344).\n
+2020-04-10T00:54:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2071.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857344).\n
+2020-04-10T00:54:50.000Z blade9,SysRestart, System restart.due to chassis control command.Event Code:0X1D07FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857344).\n
+2020-04-10T00:54:50.000Z blade9,Mezz Card2, Device inserted.Event Code:0X0841FF17, Severity:Assertion, [Info]\n
+2020-04-10T00:54:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.34.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857344).\n
+2020-04-10T00:54:50.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.12.97), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857344).\n
+2020-04-10T00:54:50.000Z blade9,RAID Presence, Device inserted.Event Code:0X0841FF17, Severity:Assertion, [Info]\n
+2020-04-10T00:54:50.000Z blade9,Mezz Card1, Device inserted.Event Code:0X0841FF17, Severity:Assertion, [Info]\n
+2020-04-10T00:54:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2326.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857346).\n
+2020-04-10T00:54:51.000Z blade9,NTP Sync Failed, State asserted.Event Code:0X0341FF16, Severity:Assertion, [Info]\n
+2020-04-10T00:54:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2071.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857345).\n
+2020-04-10T00:54:51.000Z blade9,BMC Boot Up, Device enabled.Event Code:0X0941FF16, Severity:Assertion, [Info]\n
+2020-04-10T00:54:51.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.2071.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857345).\n
+2020-04-10T00:54:52.000Z blade9,DISK0, Hard disk presence.Event Code:0X0D00FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:52.000Z blade9,DISK1, Hard disk presence.Event Code:0X0D00FFFF, Severity:Assertion, [Info]\n
+2020-04-10T00:54:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.13.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857346).\n
+2020-04-10T00:54:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.790.17), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857346).\n
+2020-04-10T00:54:52.000Z TrapLog  Send snmp trap succeed, TrapInfo:(IP: 188.18.3.80:162, OID: 1.3.6.1.4.1.2011.2.82.1.82.500.10.13.1), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: 20, EngineTime: 7857346).\n
+2020-04-10T00:55:27.000Z root,199.19.81.10(CLI),SMM,   (logout through CLI)\n
+2020-04-10T00:55:27.000Z root,199.19.81.10(CLI),SMM,   (exit session because of timeout)\n
+2020-04-10T01:20:42.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T01:20:43.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T01:20:43.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T02:21:02.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T02:21:03.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T02:21:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T03:21:23.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T03:21:23.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T03:21:24.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T04:21:43.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T04:21:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T04:21:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T05:22:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T05:22:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T05:22:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T06:22:23.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T06:22:24.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T06:22:24.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T07:22:43.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T07:22:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T07:22:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T08:23:03.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T08:23:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T08:23:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T09:23:24.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T09:23:24.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T09:23:24.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T10:23:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T10:23:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T10:23:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T11:24:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T11:24:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T11:24:05.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T12:24:25.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T12:24:25.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T12:24:25.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T13:24:44.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T13:24:45.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T13:24:45.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T14:25:04.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T14:25:05.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T14:25:05.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T15:25:24.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T15:25:25.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T15:25:26.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T16:25:45.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T16:25:46.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T16:25:46.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T17:26:06.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T17:26:06.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T17:26:07.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T18:26:26.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T18:26:26.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T18:26:27.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T19:26:47.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T19:26:47.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T19:26:47.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T20:27:08.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T20:27:08.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T20:27:08.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T21:27:28.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T21:27:28.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T21:27:28.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T22:27:47.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T22:27:48.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T22:27:49.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-10T23:28:08.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-10T23:28:08.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-10T23:28:09.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T00:28:28.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T00:28:29.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T00:28:29.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T01:28:49.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T01:28:49.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T01:28:50.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T02:29:09.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T02:29:09.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T02:29:10.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T03:29:29.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T03:29:29.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T03:29:29.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T04:29:48.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T04:29:49.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T04:29:50.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T05:30:09.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T05:30:10.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T05:30:10.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T06:30:29.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T06:30:30.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n
+2020-04-11T06:30:30.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T07:30:49.000Z Snmpuser,188.18.3.80(SNMP),SMM,set snmp trap version(v3) succeed\n
+2020-04-11T07:30:50.000Z Snmpuser,188.18.3.80(SNMP),SMM,Set trap user(Snmpuser) succeed \n
+2020-04-11T07:30:50.000Z Snmpuser,188.18.3.80(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n

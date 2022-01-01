@@ -11,6 +11,7 @@ import os
 #from naie.context import Context
 # Device configuration
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cpu")
 topN = 10
 
 

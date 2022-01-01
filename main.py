@@ -83,10 +83,10 @@ if __name__ == '__main__':
 #     # train data
     #logger.info('structured train data:')
     path_train = 'data/train_data'
-    train_loader, vocab2idx = dataloader.generate_data_for_training(path_train, window_size=10)
+    train_loader, vocab2idx = dataloader.generate_data_for_training(path_train, window_size=30)
     print(f"vocab2idx===>{vocab2idx}")
     vocab_sz = len(vocab2idx)
-    model = TransLog(vocab_sz, window_size=10, batch_size=16, num_epochs=100)
+    model = TransLog(vocab_sz, window_size=30, batch_size=1024, num_epochs=100)
     model_path = model.fit(train_loader, vocab2idx)
     # # test data
     # logger.info('structured test data:')

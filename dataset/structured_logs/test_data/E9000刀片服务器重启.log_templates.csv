@@ -1,0 +1,9 @@
+EventId,EventTemplate,Occurrences
+3507a982,"Snmpuser,<*>(SNMP),SMM,set snmp trap version(v3) succeed\n",48
+de7bc200,"Snmpuser,<*>(SNMP),SMM,Set trap user(Snmpuser) succeed \n",48
+9b6e2388,"Snmpuser,<*>(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n",48
+6c97260f,"root,<*>(CLI),SMM, <*> through CLI)\n",6
+ef759112,"root,<*>(CLI),blade10,Set fru0's frucontrol(Cold Reset) succeed\n",3
+afde4b31,"TrapLog Send snmp trap succeed, TrapInfo:(IP: <*>, OID: <*>.<*>.<*>.<*>.<*>.<*>), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: <*>, EngineTime: <*>).\n",3
+864a915d,"blade10,SysRestart, System restart.due to chassis control command.Event Code:0X1D07FFFF, Severity:Assertion, [Info]\n",3
+03906ce5,"root,<*>(CLI),SMM, (exit session because of timeout)\n",3

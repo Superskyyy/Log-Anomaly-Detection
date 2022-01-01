@@ -77,7 +77,7 @@ def load_HDFS(log_file, label_file=None, window='session', train_ratio=0.5, spli
         (x_test, y_test): the testing data
     """
 
-    print('====== Input data summary ======')
+    #print('====== Input data summary ======')
 
     if log_file.endswith('.npz'):
         # Split training and validation set in a class-uniform way
@@ -121,8 +121,8 @@ def load_HDFS(log_file, label_file=None, window='session', train_ratio=0.5, spli
             # Split training and validation set sequentially
             x_data = data_df['EventSequence'].values
             (x_train, _), (x_test, _) = _split_data(x_data, train_ratio=train_ratio, split_type=split_type)
-            print('Total: {} instances, train: {} instances, test: {} instances'.format(
-                  x_data.shape[0], x_train.shape[0], x_test.shape[0]))
+            #print('Total: {} instances, train: {} instances, test: {} instances'.format(
+            #      x_data.shape[0], x_train.shape[0], x_test.shape[0]))
             return (x_train, None), (x_test, None)
     else:
         raise NotImplementedError('load_HDFS() only support csv and npz files!')
@@ -134,12 +134,12 @@ def load_HDFS(log_file, label_file=None, window='session', train_ratio=0.5, spli
     num_test_pos = sum(y_test)
     num_pos = num_train_pos + num_test_pos
 
-    print('Total: {} instances, {} anomaly, {} normal' \
-          .format(num_total, num_pos, num_total - num_pos))
-    print('Train: {} instances, {} anomaly, {} normal' \
-          .format(num_train, num_train_pos, num_train - num_train_pos))
-    print('Test: {} instances, {} anomaly, {} normal\n' \
-          .format(num_test, num_test_pos, num_test - num_test_pos))
+    # print('Total: {} instances, {} anomaly, {} normal' \
+    #       .format(num_total, num_pos, num_total - num_pos))
+    # print('Train: {} instances, {} anomaly, {} normal' \
+    #       .format(num_train, num_train_pos, num_train - num_train_pos))
+    # print('Test: {} instances, {} anomaly, {} normal\n' \
+    #       .format(num_test, num_test_pos, num_test - num_test_pos))
 
     return (x_train, y_train), (x_test, y_test)
 
@@ -167,40 +167,39 @@ def load_NAIE(log_file, label_file=None, save_csv=False):
         # Split training and validation set sequentially
         x_data = data_df['EventSequence'].values
         t_data = list(data_df['slice_win'].values)
-        print('Total: {} instances'.format(x_data.shape[0]))
+        #print('Total: {} instances'.format(x_data.shape[0]))
         return (x_data, t_data)
     else:
         raise NotImplementedError('load_NAIE() only support csv and npz files!')
 
-def generate_data_for_training(path_train, window_size=10):
-    num_sessions = 0
-    inputs = []
-    outputs = []
-    # path_train = '../data/structured_logs/NAIE/train_data'
-    log_structured_train = [name for name in os.listdir(path_train) if fnmatch(name, '*.log_structured.csv')]
+def to_idx(path):
+    log_structured_train = [name for name in os.listdir(path) if fnmatch(name, '*.log_structured.csv')]
     log_structured_train.sort()
-    log_dict_train = OrderedDict()
+    log_dict = OrderedDict()
     # generate the data of 'filename': seqs.
     for file in log_structured_train:
         name = file.split('.')[0]
-        (x_train, _) = load_NAIE(os.path.join(path_train, file))
-        if name not in log_dict_train:
-            log_dict_train[name] = []
-        log_dict_train[name].append(list(x_train))
+        (x_train, _) = load_NAIE(os.path.join(path, file))
+        if name not in log_dict:
+            log_dict[name] = []
+        log_dict[name].append(list(x_train))
     # calculate the vocabulary of all the templates
     vocab2idx = {'PAD': 0}
-    log_templates_train = [name for name in os.listdir(path_train) if fnmatch(name, '*.log_templates.csv')]
+    log_templates_train = [name for name in os.listdir(path) if fnmatch(name, '*.log_templates.csv')]
     log_templates_train.sort()
     for file in log_templates_train:
-        template_file = pd.read_csv(os.path.join(path_train, file), engine='c', na_filter=False, memory_map=True)
+        template_file = pd.read_csv(os.path.join(path, file), engine='c', na_filter=False, memory_map=True)
         for idx, template_id in enumerate(template_file['EventId'], start=len(vocab2idx)):
             vocab2idx[template_id] = idx
     vocab2idx['UNK'] = len(vocab2idx)
-    # vocab_sz = len(vocab2idx)
-    # template_id --> idx
+    return vocab2idx, log_dict
+
+def generate_data_for_training(vocab2idx, log_dict_train, window_size=10):
+    num_sessions = 0
+    inputs = []
+    outputs = []
+    
     for name, seqs in log_dict_train.items():
-        print(name)
-        # print(seqs)
         for line in seqs[0]:
             num_sessions += 1
             if len(line) == 1:
@@ -211,11 +210,10 @@ def generate_data_for_training(path_train, window_size=10):
             for i in range(len(line) - window_size):  # gennerate idx seqs
                 inputs.append(line[i:i + window_size])
                 outputs.append(line[i + window_size])
-    print('Number of sessions({}): {}'.format(path_train, num_sessions))
-    print('Number of seqs({}): {}'.format(path_train, len(inputs)))
+
     dataset = TensorDataset(torch.tensor(inputs, dtype=torch.float), torch.tensor(outputs))
 
-    return dataset, vocab2idx
+    return dataset
 
 def generate_data_for_testing(path_test, vocab2idx, window_size=10):
     num_sessions = 0
@@ -243,12 +241,12 @@ def generate_data_for_testing(path_test, vocab2idx, window_size=10):
             dataset.append(line)
         log_dict_test[name] = dataset
         num_sessions += len(dataset)
-        print('file:sessions = {}:{}'.format(name, len(dataset)))
-    print('Number of test_files:{}'.format(len(log_dict_test)))
-    print('Number of sessions:{}'.format(num_sessions))
+        #print('file:sessions = {}:{}'.format(name, len(dataset)))
+    #print('Number of test_files:{}'.format(len(log_dict_test)))
+    #print('Number of sessions:{}'.format(num_sessions))
     return log_dict_test, time_dict_test
 
-def deeplog_result_to_csv(y, t, result_dir, time_zone=8):
+def result_to_csv(y, t, result_dir, time_zone=8):
     dataset = []
     datetime = []
     label = []

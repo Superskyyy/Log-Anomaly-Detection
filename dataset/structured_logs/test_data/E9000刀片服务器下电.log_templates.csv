@@ -1,0 +1,17 @@
+EventId,EventTemplate,Occurrences
+de7bc200,"Snmpuser,<*>(SNMP),SMM,Set trap user(Snmpuser) succeed \n",48
+3507a982,"Snmpuser,<*>(SNMP),SMM,set snmp trap version(v3) succeed\n",48
+9b6e2388,"Snmpuser,<*>(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n",48
+6c97260f,"root,<*>(CLI),SMM, <*> through CLI)\n",8
+afde4b31,"TrapLog Send snmp trap succeed, TrapInfo:(IP: <*>, OID: <*>.<*>.<*>.<*>.<*>.<*>), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: <*>, EngineTime: <*>).\n",136
+6d791a06,"blade9,FRU Hot Swap, Transition to <*> State Change.fruid:#<*>.Event <*> Severity:Assertion, [Info]\n",12
+a0617d6b,"root,<*>(CLI),blade9,Set fru0's <*> succeed\n",4
+03906ce5,"root,<*>(CLI),SMM, (exit session because of timeout)\n",4
+f33b846b,<*> Presence detected.Event <*> <*> [Info]\n,96
+699f8967,"blade9,ACPI State, <*> state.Event <*> Severity:Assertion, [Info]\n",6
+f58ad471,"blade9,SysRestart, System restart.due to chassis control command.Event Code:0X1D07FFFF, Severity:Assertion, [Info]\n",4
+769e6600,"<*> Status, CPU present.Event Code:0X0707FFFF, Severity:Assertion, [Info]\n",4
+23a7fb59,"<*> <*> Device inserted.Event Code:0X0841FF17, Severity:Assertion, [Info]\n",6
+de7d1f4d,"blade9,NTP Sync Failed, State asserted.Event Code:0X0341FF16, Severity:Assertion, [Info]\n",2
+3f7ee465,"<*> Hard disk presence.Event Code:0X0D00FFFF, Severity:Assertion, [Info]\n",4
+7d99e3b9,"blade9,BMC Boot Up, Device enabled.Event Code:0X0941FF16, Severity:Assertion, [Info]\n",2

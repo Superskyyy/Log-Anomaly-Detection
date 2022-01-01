@@ -1,5 +1,0 @@
-EventId,EventTemplate,Occurrences
-c5f0692d,<*> Informational(<*>): The <*> of the user (user name <*> from the source (<*>) succeeded.,56542
-648a582d,0xF00310004 Warning(<*>): The number of event logs is about to reach the upper limit of <*>.,6
-cf5d5b42,0x100F00310001 Informational(<*>): The dumping server is unavailable and earlier event logs have been deleted.,5
-768ffb07,<*> <*> 0xF00310004 Warning(<*>): The number of event logs is about to reach the upper limit of <*>.,5

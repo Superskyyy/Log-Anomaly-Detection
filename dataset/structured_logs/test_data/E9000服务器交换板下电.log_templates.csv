@@ -1,0 +1,18 @@
+EventId,EventTemplate,Occurrences
+3507a982,"Snmpuser,<*>(SNMP),SMM,set snmp trap version(v3) succeed\n",47
+de7bc200,"Snmpuser,<*>(SNMP),SMM,Set trap user(Snmpuser) succeed \n",47
+9b6e2388,"Snmpuser,<*>(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n",47
+6c97260f,"root,<*>(CLI),SMM, <*> through CLI)\n",10
+1defb30c,"swi1,FRU2 Hot Swap, The Fabric plane of the switch module requests <*> <*> Severity:Assertion, [Info]\n",4
+00230034,"root,<*>(CLI),swi1,Set fru2's <*> succeed\n",4
+afde4b31,"TrapLog Send snmp trap succeed, TrapInfo:(IP: <*>, OID: <*>.<*>.<*>.<*>.<*>.<*>), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: <*>, EngineTime: <*>).\n",20
+ff644b48,"swi1,FRU2 Hot Swap, The Fabric plane of the switch module is being powered <*> <*> Severity:Assertion, [Info]\n",4
+16a67c06,"swi1,FRU2 Hot Swap, The Fabric plane of the switch module is installed but powered off.Event Code:0XF001FFFF, Severity:Assertion, [Info]\n",2
+03906ce5,"root,<*>(CLI),SMM, (exit session because of timeout)\n",5
+e093a1a8,"swi1,FRU2 Hot Swap, The Fabric plane of the switch module is powered on.Event Code:0XF004FFFF, Severity:Assertion, [Info]\n",4
+d4368141,"swi1,FRU0 Hot Swap, The mainboard is powered on (PN:03022NLK).Event Code:0XF004FFFF, Severity:Assertion, [Info]\n",2
+c8259fe7,"swi1,BMC Boot Up, iBMC is restarted after AC power supply is restored.Event Code:0X0941FF16, Severity:Assertion, [Info]\n",2
+ca7003ff,"swi1,Fabric Restart, The Fabric plane of the switch module restarted.Event Code:0X1D02FFFF, Severity:Assertion, [Info]\n",2
+fb70a31a,"Snmpuser,<*>(SNMP),SMM,set flat management info (flat manager lock value(<*>)) <*>",2
+4fa60ac4,"Snmpuser,<*>(SNMP),,set flat management info (network manager's <*> succeed\n",2
+b5f0603c,"Snmpuser,<*>(SNMP),SMM,set flat management info (system switch(<*>)) succeed\n",2

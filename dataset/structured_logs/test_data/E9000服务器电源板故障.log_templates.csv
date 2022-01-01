@@ -1,0 +1,12 @@
+EventId,EventTemplate,Occurrences
+3507a982,"Snmpuser,<*>(SNMP),SMM,set snmp trap version(v3) succeed\n",47
+de7bc200,"Snmpuser,<*>(SNMP),SMM,Set trap user(Snmpuser) succeed \n",47
+9b6e2388,"Snmpuser,<*>(SNMP),SMM,set trap format(object identifier (OID) mode) succeed\n",47
+75204a21,"root,<*>(WEB),SMM,login through Web\n",1
+819e5232,"root,<*>(WEB),SMM,delete blade sso session(user:root ip:<*>) failed(0x1)\n",2
+6c97260f,"root,<*>(CLI),SMM, <*> through CLI)\n",8
+956d9a96,"root,<*>(CLI),pem4,Set Pem Switch(switches <*> PSU) succeed\n",4
+2ba67da3,"pem,PS4 Status, Power supply failure.Event <*> <*> [Major]\n",4
+afde4b31,"TrapLog Send snmp trap succeed, TrapInfo:(IP: <*>, OID: <*>.<*>.<*>.<*>.<*>.<*>), EngineInfo:(EngineID: 800007db03883fd39e28371711, EngineBoots: <*>, EngineTime: <*>).\n",4
+03906ce5,"root,<*>(CLI),SMM, (exit session because of timeout)\n",4
+16f73119,"root,<*>(WEB),SMM,logout through Web because session time out\n",1

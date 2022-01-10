@@ -17,7 +17,7 @@ if __name__ == '__main__':
     window_size = 10
     batch_size= 1024
     learning_rate= 0.0001
-    num_epochs= 1
+    num_epochs= 300
     input_size= 1
 
     path_train = 'dataset/structured_logs/train_data'
@@ -45,7 +45,7 @@ if __name__ == '__main__':
             embed_dim= 64, 
             out_dim= vocab_sz,
             window_size= window_size,
-            depth= 2,
+            depth= 6,
             heads= 8,
             dim_head= 64,
             dim_ratio= 2,

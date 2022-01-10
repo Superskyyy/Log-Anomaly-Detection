@@ -1,12 +1,12 @@
 import os, os.path
-from loglizer.models.transformer import Transformer
-from loglizer import dataloader, preprocessing
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
+from models import Transformer
+import dataloader
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import TensorDataset, DataLoader, random_split
-from sklearn.metrics import confusion_matrix
+from torch.utils.data import  DataLoader, random_split
 import numpy as np
 import matplotlib
 matplotlib.use('AGG')
@@ -38,8 +38,6 @@ if __name__ == '__main__':
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, pin_memory=True)
     val_loader = DataLoader(val_dataset, batch_size= 1, shuffle= False)
 
-    #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    device = torch.device("cpu")
     model = Transformer(
             in_dim= input_size,
             embed_dim= 64, 
@@ -50,8 +48,14 @@ if __name__ == '__main__':
             dim_head= 64,
             dim_ratio= 2,
             dropout= 0.1
-        ).to(device)
+        )
 
+    model = nn.DataParallel(model) # multi-GPU
+
+    if torch.cuda.is_available():
+        model.cuda()
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001, betas=(0.9, 0.999), eps=1e-08, weight_decay=0)
@@ -63,6 +67,8 @@ if __name__ == '__main__':
 
     save_path = os.path.join(model_path,model_name)
     best_model = model
+    train_loss_list = []
+    val_loss_list = []
 
     print("Begin training ......")
 
@@ -81,6 +87,7 @@ if __name__ == '__main__':
             optimizer.step()
         
         ave_trainloss = train_loss / len(train_loader)
+        train_loss_list.append(ave_trainloss)
 
         # Vaildating
         with torch.no_grad():    
@@ -91,6 +98,7 @@ if __name__ == '__main__':
                 val_loss += loss.item()
         
         ave_valoss = val_loss / len(val_loader)
+        val_loss_list.append(ave_valoss)
 
         if ave_valoss < loss_min:
             loss_min = ave_valoss
@@ -99,5 +107,10 @@ if __name__ == '__main__':
             print("Model saved")
     
         print('Epoch [{}/{}], train_loss: {:.14f} val loss: {:.14f}'.format(epoch + 1, num_epochs, ave_trainloss, ave_valoss))
+
+        xx = [range(epoch)]
+        plt.plot(xx, train_loss_list, xx, val_loss_list)
+        plt.savefig("loss.png")
+
 
     print(f"Finished training, model saved in: {save_path} ")

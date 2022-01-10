@@ -1,8 +1,10 @@
 import torch
-from loglizer.models.transformer import Transformer
-from loglizer import dataloader, preprocessing
+import torch.nn as nn
+from models import Transformer
+import dataloader
 from collections import OrderedDict
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"
 
 window_size = 10
 input_size= 1
@@ -42,8 +44,7 @@ if __name__ == '__main__':
 
     test_loader, t_loader = dataloader.generate_data_for_testing(path_test, vocab2idx, window_size)
 
-    #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    device = torch.device("cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = Transformer(
             in_dim= input_size,
             embed_dim= 64, 
@@ -54,7 +55,12 @@ if __name__ == '__main__':
             dim_head= 64,
             dim_ratio= 2,
             dropout= 0.1
-        ).to(device)
+        )
+    
+    model = nn.DataParallel(model) # multi-GPU
+
+    if torch.cuda.is_available():
+        model.cuda()
 
     model.eval()
 

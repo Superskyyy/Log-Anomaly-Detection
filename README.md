@@ -4,6 +4,9 @@ Based on the implementation of Deeplog, we introduced Transformer to improve the
 ## Overall Architecture
 ![TransLog网络架构](figures/整体架构.png)
 
+## Experimental Results
+![Loss](figures/loss.png)
+
 ## Usage
 ### Step 1: Create the Environment
 pip install -r requirements.txt
